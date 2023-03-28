@@ -1,0 +1,21 @@
+caption{
+    font-size: 1.3rem;
+    font-weight: bold; 
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+border: 1px solid black;
+padding: 0.1rem;
+text-align: center;
+}
+th{
+    font-size: 1rem;
+    color: orangered;
+}
+td{
+    font-size: 0.9rem;
+    color: blue;
+    font-weight: bold;
+}
