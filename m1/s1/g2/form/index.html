@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" autocomplete="on" >
+        <label for="username">nome utente</label>
+        <input type="text" placeholder="name" checkbox id="username">
+        <input type="checkbox">
+        <button type="submit">Manda i dati!</button>
+        <textarea name="nome" id="name" cols="30" rows="10"></textarea>
+
+    </form>
+    <form>
+        <fieldset>
+            <legend>anagrafica</legend>
+            <label for="name"></label>
+            <input type="text" id="nome"name="nome" placeholder="inserisci nome" >
+            <input type="checkbox" required>
+            <button type="submit" >invia form!!!</button>
+        </fieldset>
+        <fieldset>
+            <legend>contatti</legend>
+        <label for="telefono">Chiamami</label>
+        <input type="tel" id="tel" name="tel" placeholder="inserisci il tuo numero" >
+        <label for="email">la tua email</label>
+        <input type="email">
+        <textarea name="testo" id="testo" cols="10" rows="5"></textarea>
+    </fieldset>
+    </form>
+    <form>
+    <fieldset>
+        <label for="select">seleziona pure</label>
+        <select name="corso" id="corso">
+            <option value="">selezione voce</option>
+            <option value="">ciao</option>
+            <option value="">come</option>
+            <option value="">stai?</option>
+        </select>
+        <p>linguaggi conosciuti</p>
+        <input type="checkbox" for="html" id="html">
+        <label for="checkbox">HTML</label>
+        <input type="checkbox" for="CSS" id="CSS">
+        <label for="checkbox">CSS</label>
+        <input type="checkbox" for="JAVASCRIPT" id="JAVASCRIPT">
+        <label for="checkbox">JAVASCRIPT</label>
+        <p>Time Format!</p>
+        <input type="radio" required id="full time" name="format">
+        <label for="radio">Full time</label>
+        <input type="radio" required id="part time" name="format">
+        <label for="radio">part time</label>
+        <input type="radio" required id="tirocinio" name="format">
+        <label for="radio">tirocinio</label>
+    </fieldset>
+    <button type="submit" >invia nuovo form!</button>
+    <button type="reset">reset</button>
+</form>
+</body>
+</html>

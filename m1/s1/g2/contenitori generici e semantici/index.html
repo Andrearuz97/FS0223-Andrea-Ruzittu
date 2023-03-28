@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>container</title>
+</head>
+
+<body>
+    <div></div> <!--no semantico-->
+    <span></span><!--prendo porzione di testo-->
+
+    <header>
+        <h1>titolo principale</h1>
+        <img src="logo" alt="logo">
+        <p> principali elementi utilizzabili da tutte le pagine</p>
+    </header>
+    <nav>
+
+    </nav>
+    <section></section><!--sezione tematica-->
+    <article></article><!--contenuto indipendente(es.tanti articoli diversi in una sezione sport)-->
+    <main>
+
+    </main>
+    <aside>
+        <p>contenuto secondario che non toglie o aggiunge nulla al contenuto principale (si puo usare dentro main) </p>
+    </aside>
+    <footer>
+        <p>raccoglie idealmente le informazioni di servizio secondarie e i collegamenti utili per far collegare tutte le
+            pagine.(si puo usare dentro section ma non di article) </p>
+        <address></address> <!--dentro footer-->
+    </footer>
+
+<!--esempio di come dovrebbere essere strutturata una pagina in modo semantico-->
+<!--sul body utilizzo cio che serve per tutta la finestra, non il documento!!!!!(per documento uso container!!!)-->
+<div id="container"> <!--uso flex e tutti i  font etc...-->
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+
+            </article>
+        </section>
+        <article>
+            <section>
+
+            </section>
+        </article>
+        <aside>
+
+        </aside>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+
+    </footer> <!--si puo usare anche su un blocco semantico(section)-->
+</div>
+</body>
+
+</html>
