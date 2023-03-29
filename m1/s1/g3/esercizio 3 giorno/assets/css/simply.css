@@ -53,9 +53,12 @@ h1 {
     margin-top: 4rem;
 }
 
-.ingredienti p,
-ol li p:first-of-type {
-    font-weight: bold;
+.ingredienti p{
+    font-weight: bold
+}
+#p{
+    font-weight: bold
+
 }
 .ingredientimetodo{
     border-bottom: 1px solid rgb(197, 243, 243);
