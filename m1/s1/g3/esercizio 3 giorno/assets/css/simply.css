@@ -54,12 +54,8 @@ h1 {
     margin-top: 4rem;
 }
 
-.ingredienti p {
-    font-weight: bold
-}
-
-#p {
-    font-weight: bold
+.ingredienti p span {
+    font-weight: bold;
 }
 
 .ingredientimetodo {
@@ -80,12 +76,12 @@ li {
 }
 
 nav {
-    background-color: #fefbf1;
-    padding: 1rem 0;
     border-top: 1px solid #ffd977;
-    color: #004d4d;
     font-size: 0.8rem;
+    background-color: #fefbf1;
     margin-bottom: 4rem;
+    padding: 1rem 0;
+    color: #004d4d;
 }
 
 nav span {
