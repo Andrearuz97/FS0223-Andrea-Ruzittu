@@ -3,7 +3,7 @@ body {
     font-family: Georgia, serif;
     color: #333;
     margin: 0;
-    background-image: linear-gradient(to right, #810180 , #F87E72);
+    background-image: linear-gradient(to right, #810180, #F87E72);
 }
 
 #logoimg {
@@ -44,23 +44,25 @@ h1 {
     color: #b5460f;
     display: block;
 }
+
 #featured a,
 #simplyrecipes {
-  color: #177;
+    color: #177;
 }
 
 .ingredienti {
     margin-top: 4rem;
 }
 
-.ingredienti p{
+.ingredienti p {
     font-weight: bold
 }
-#p{
-    font-weight: bold
 
+#p {
+    font-weight: bold
 }
-.ingredientimetodo{
+
+.ingredientimetodo {
     border-bottom: 1px solid rgb(197, 243, 243);
     margin-bottom: 2rem;
 }
@@ -86,13 +88,19 @@ nav {
     margin-bottom: 4rem;
 }
 
-nav span   {
-   font-weight:100;
+nav span {
+    font-weight: 100;
 }
-input{
-    display:inline; ;
-    margin: auto;
-}
-.forms{
+
+form {
     display: block;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    margin: 5px auto;
 }
