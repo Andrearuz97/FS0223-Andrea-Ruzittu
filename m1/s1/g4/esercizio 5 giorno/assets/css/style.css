@@ -1,0 +1,133 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/sfondo.png);
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+/* HEADER */
+header{
+    width: 20rem;
+    margin:0 auto;
+    background-color: #016F89;
+    padding:1rem;
+    margin-bottom: 1rem;
+    border: solid 1px gray;
+    color: white ;
+    font-weight:bolder;
+     
+   
+}
+nav a{
+    color: white;
+
+}
+nav :hover{
+    color: red;
+}
+
+a{
+    display: block;
+}
+#logo{
+    width: 180px;
+ 
+
+}
+h1{
+    font-size: 1.8rem;
+}
+article{
+text-align: left;
+margin: 0 auto;
+background-color: white;
+padding: 1rem;
+border: solid 1px gray;
+width: 20rem;
+margin-bottom: 1rem;
+}
+article iframe{
+width: 20rem;
+height: 15rem;
+border-radius: 1.5rem;
+}
+/* MAIN */
+.articoli{
+background-color: #E5E4E6;
+padding: 0.3rem 1rem;
+margin-bottom: 1rem;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+footer {
+    margin: 0 auto;
+    width: 20rem;
+    background-color: #035366;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: white;
+}
+#email{
+ color: #FE02FA;   
+}
+#icons{
+    color: #666;
+}
+i{
+    margin-right: 0.1rem;
+}
+strong{
+    color: #c305c0;
+}
+code{
+    background-color:#d1cfcf;
+    border-radius: 5px;
+    border: solid 1px gray;
+}
+#userEmail{
+border-bottom: dashed grey 2px ;
+margin-bottom: 1rem;
+width: 9rem;
+}
+#novita{
+    background-color: #E5E4E6;
+    text-align: center;
+}
+button{
+    background-color: #3367CA;
+    color: white;
+}
+.data{
+    text-align: right;
+    
+}
+.articoli p{
+    margin: 0 0 1rem 0;
+}
+aside a{
+    font-weight: bold;
+    color: #0a94c6;
+}
+caption{
+    font-weight: bold;
+}
+/* TABELLE */
+table {
+    text-align: center;
+    margin: 0 auto;
+    width: 20rem;
+    border-collapse: collapse ;
+    border-bottom: solid 2px #3367CA ;
+   
+}
+th{
+    background-color: #3367CA;
+    padding: 1rem;
+    color: white;
+}
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
