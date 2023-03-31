@@ -54,11 +54,11 @@ background-size: cover;
 margin-bottom: 3rem;
 }
 #banner a{
-background-color: #e22d0e;
+background-color: #f04c2f ;
 color: white;
 text-decoration: none;
 padding: 0.8rem 2rem;
-border-radius: 7px;
+border-radius: 5px;
 
 } 
 #divpctondo{
@@ -164,7 +164,6 @@ div{
 #copyright{
     color: #C8E7F0;
     border-top: 1px solid;
-    border-color: white;
     margin: 1.2rem 1.5rem 0rem 1.5rem;
     padding-top: 1.6rem;
     font-size: 0.6rem;

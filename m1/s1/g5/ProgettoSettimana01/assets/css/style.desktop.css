@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body{
   color: #393d41;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+h1,h2,h3,h4{
+  color: #25a2c3;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+
 }
 #logo{
   background-color: black;
@@ -16,21 +27,24 @@ body{
   padding: 9rem;
 }
 
-button{
+#presentazione a{
 color: white;
-background-color: #f04c2f;
-padding: 0.5rem 1.5rem;
-border-radius: 3px;
-border: none;
-text-align: center;
-margin-top: 2rem ;
+background-color: #f04c2f ;
+padding: 0.5rem 2rem;
+text-decoration: none;
+display: inline-block;
+margin-top: 2rem;
+border-radius: 5px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 1rem;
 }
 #scrittaprese h1{
   color:#25a2c3;
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 
 }
 #scrittaprese p {
@@ -45,14 +59,13 @@ margin-top: 2rem ;
 }
 #partedue h3{
   color: #25a2c3;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 0rem;
-  line-height: 1.2rem;
-  margin-bottom: 0.6rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.8rem;
 }
 #partedue p{
-  font-size: 1rem;
   margin-bottom: 1rem;
   line-height: 1.5rem;
 }
@@ -65,8 +78,11 @@ margin-top: 2rem ;
 #scrittepctondo{
   margin-top: 7rem;
 }
+#epicodegarantisce p{
+font-style: italic;
+}
 #epicodegarantisce{
-  background-color: #f04c2f;
+  background-color: #e22d0e;
   text-align: center;
   padding: 4rem;
   color:white;
@@ -75,15 +91,19 @@ margin-top: 2rem ;
   font-size: 1.7rem;
   font-weight: bolder;
   margin-bottom: 1.3rem;
+  color: white;
 }
 #epicodegarantisce h3{
   margin-top: 1.3rem;
-  margin-bottom: 0.7rem;
-  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  color: white;
+  font-weight: normal;
 }
 #epicodegarantisce h4{
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: white;
+  font-weight: normal;;
 }
 #terzaparte{
   display: flex;
@@ -104,7 +124,7 @@ margin-top: 2rem ;
   margin: 1rem 0rem;
 }
 .sezionivicine p{
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
   margin: 0rem 1rem 2rem 1rem;
 }
@@ -116,12 +136,13 @@ footer{
   padding-bottom: 0.5rem;
 }
 footer h2{
+  color: white;
   font-size: 2.7rem;
-  font-weight: bold;;
+  font-weight: bold;
   padding: 2rem 0rem 2rem 0rem;
 }
 #taga{
-  margin-left: 41%;
+  margin-left: 39%;
   text-align: left;
   color: white;
 }
@@ -130,15 +151,14 @@ footer a {
   
 }
 #copyright{
-  border-top: 0.1rem solid #C8E7F0;
-  margin: 0rem 40% 0rem 40.5%; 
-  padding-top: 1.7rem;
-  margin-top: 2rem;
+  border-top: 1px solid #C8E7F0; 
+  margin: 2rem 38% 0rem 39%;
   font-size: 0.8rem;
   color: #C8E7F0;
 }
 #copyright p{
   color: #C8E7F0;
+  padding: 1rem 0rem 2rem 0rem;
  
 }
 #p{
