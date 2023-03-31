@@ -106,12 +106,16 @@ font-style: italic;
 #epicodegarantisce h3{
 font-size: 1rem;
 margin-bottom: 0.4rem;
-margin-top: 1rem;
+margin:0;
+margin-top: 2rem;
 color: white;
+font-weight: normal;
 }
 #epicodegarantisce h4{
 font-size: 0.65rem;
 color: white;
+font-weight: normal;
+margin: 0;
 }
 #terzaparte h3{
     color: #25a2c3;
@@ -171,4 +175,7 @@ div{
     font-size: 0.9rem;
     
     
+}
+.simbolicon{
+    margin-bottom: 0.5rem;
 }
