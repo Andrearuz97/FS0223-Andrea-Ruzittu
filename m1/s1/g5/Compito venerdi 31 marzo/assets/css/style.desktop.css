@@ -1,0 +1,147 @@
+body{
+  color: #393d41;
+  font-family: 'Open Sans', sans-serif;
+}
+#logo{
+  background-color: black;
+  padding: 1rem 2rem;
+}
+#imglogo{
+  width: 6rem;
+}
+#presentazione{
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 9rem;
+}
+
+button{
+color: white;
+background-color: #f04c2f;
+padding: 0.5rem 1.5rem;
+border-radius: 3px;
+border: none;
+text-align: center;
+margin-top: 2rem ;
+}
+#scrittaprese h1{
+  color:#25a2c3;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+
+}
+#scrittaprese p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 8rem 0 8rem;
+  line-height: 2rem;
+}
+#partedue{
+  display: flex;
+  margin-right: 10rem;
+}
+#partedue h3{
+  color: #25a2c3;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+#partedue p{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+#pctondo{
+  border-radius: 100%;
+  margin: 6rem 5rem 5rem 10rem;
+  width: 23rem;
+}
+#scrittepctondo{
+  margin-top: 7rem;
+}
+#epicodegarantisce{
+  background-color: #f04c2f;
+  text-align: center;
+  padding: 4rem;
+  color:white;
+}
+#epicodegarantisce h2{
+  font-size: 1.7rem;
+  font-weight: bolder;
+  margin-bottom: 1.3rem;
+}
+#epicodegarantisce h3{
+  margin-top: 1.3rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.2rem;
+}
+#epicodegarantisce h4{
+  font-size: 0.8rem;
+  color: white;
+}
+#terzaparte{
+  display: flex;
+  margin: 0rem 5rem ;
+}
+.img{
+  width: 100%;
+}
+.sezionivicine{
+  border: #DEE1E3 solid 1px ;
+  text-align: center;
+  margin: 5rem 1rem ;
+}
+.sezionivicine h3{
+  color: #25a2c3;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1rem 0rem;
+}
+.sezionivicine p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0rem 1rem 2rem 1rem;
+}
+footer{
+  background-color: #25a2c3;
+  color: white;
+  text-align: center;
+  line-height: 2rem;
+  padding-bottom: 0.5rem;
+}
+footer h2{
+  font-size: 2.7rem;
+  font-weight: bold;;
+  padding: 2rem 0rem 2rem 0rem;
+}
+#taga{
+  margin-left: 41%;
+  text-align: left;
+  color: white;
+}
+footer a {
+  color: #C8E7F0;
+  
+}
+#copyright{
+  border-top: 0.1rem solid #C8E7F0;
+  margin: 0rem 40% 0rem 40.5%; 
+  padding-top: 1.7rem;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #C8E7F0;
+}
+#copyright p{
+  color: #C8E7F0;
+ 
+}
+#p{
+  display: inline;
+  color: #C8E7F0;
+}
