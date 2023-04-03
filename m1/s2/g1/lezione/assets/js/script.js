@@ -22,8 +22,9 @@ document.getElementById("test").innerHTML= pesci;
 }
 setTimeout(riassegna,4000) //chiamo funzione e do millisecondi di attesa per invocare funzione
 
+
 var nuovoNome;
-if (nome === undefined){
+if (nuovoNome === undefined){
     document.getElementById("error").innerHTML= "la variabile è undefined";
 }else{
     document.getElementById("error").innerHTML= "la variabile errore è " + nuovoNome;
