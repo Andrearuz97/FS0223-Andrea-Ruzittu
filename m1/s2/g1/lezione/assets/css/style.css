@@ -1,0 +1,26 @@
+body{
+background-color:yellow;
+}
+h1{
+    color: blue;
+}
+#container{
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;  
+}
+button{
+    background-color: orangered;
+    color: black;
+    padding: 1rem;
+    font-size: larger;
+    font-weight: bolder;
+    cursor:pointer;
+}
+a{
+    font-size: 2rem;
+    color: red;
+}
+a:hover{
+    color: greenyellow;
+}
