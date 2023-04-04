@@ -1,0 +1,37 @@
+body{
+    background-color: #666;;
+}
+h1{
+    margin-left: 1rem;
+}
+#container button{
+    display: block;
+    font-weight: bolder;
+    color: red;
+    background-color: #666;
+    padding:1rem 1rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px 10px black;
+    width: 25%;
+    margin: 0 auto;
+}
+#container button:hover{
+    width: 50%;
+}
+#container{
+    background-color: grey;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+#stampa{
+    color: red;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+
+input{
+    width: 100%;
+}
