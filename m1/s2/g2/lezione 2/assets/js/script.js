@@ -8,7 +8,7 @@
 //7° evento scatenante (eventeHandler)
 //click sul BUTTON!
 //VARIABILI GLOBALI: BTN(const), età, stato.
-//variabili locali:
+//variabili locali: 
 
 const btn = document.getElementById('verifica');
 
