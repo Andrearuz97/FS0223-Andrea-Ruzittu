@@ -9,7 +9,8 @@
 //click sul BUTTON!
 //VARIABILI GLOBALI: BTN(const), età, stato.
 //variabili locali: 
-
+var eta;
+var stato;
 const btn = document.getElementById('verifica');
 
 btn.addEventListener('click', () => {
