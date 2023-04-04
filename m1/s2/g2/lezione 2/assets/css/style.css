@@ -1,38 +1,46 @@
-body{
-    background-color: #666;;
+body {
+    background-color: #666;
+    ;
 }
-h1{
+
+h1 {
     margin-left: 1rem;
 }
-#buttonverifica{
+
+#buttonverifica {
     margin-bottom: 2rem;
 }
-h3{
+
+h3 {
     margin: 0;
 }
-#container button{
+
+#container button {
     display: block;
     font-weight: bolder;
     color: red;
     background-color: #666;
-    padding:1rem 1rem;
+    padding: 1rem 1rem;
     cursor: pointer;
     box-shadow: 2px 2px 8px 10px black;
     width: 25%;
     margin: 0 auto;
     margin-bottom: 1rem;
 }
-#container button:hover{
+
+#container button:hover {
     width: 50%;
 }
-#container{
+
+#container {
     background-color: grey;
     width: 50%;
     margin: auto;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
 }
-#stampa{
+
+#stampa {
     color: red;
     font-size: 3rem;
     text-align: center;
@@ -40,9 +48,10 @@ h3{
 }
 
 
-input{
+input {
     width: 100%;
 }
-fieldset{
-margin-bottom: 1rem;
+
+fieldset {
+    margin-bottom: 1rem;
 }
