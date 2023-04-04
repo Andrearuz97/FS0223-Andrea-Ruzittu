@@ -4,6 +4,12 @@ body{
 h1{
     margin-left: 1rem;
 }
+#buttonverifica{
+    margin-bottom: 2rem;
+}
+h3{
+    margin: 0;
+}
 #container button{
     display: block;
     font-weight: bolder;
@@ -14,6 +20,7 @@ h1{
     box-shadow: 2px 2px 8px 10px black;
     width: 25%;
     margin: 0 auto;
+    margin-bottom: 1rem;
 }
 #container button:hover{
     width: 50%;
@@ -23,6 +30,7 @@ h1{
     width: 50%;
     margin: auto;
     padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 #stampa{
     color: red;
@@ -34,4 +42,7 @@ h1{
 
 input{
     width: 100%;
+}
+fieldset{
+margin-bottom: 1rem;
 }

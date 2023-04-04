@@ -29,7 +29,7 @@ function verifica (){
     stato = (eta>=18) ? 'maggiorenne' : 'minorenne';
 }
 function scrivi(nome){
-    document.getElementById("mioNome").innerHTML = `ciao ${nome||'Andrea'}`
+    document.getElementById("mioNome").innerHTML = `ciao ${nome||'Anonimo'}`
     document.getElementById("miaVerifica").innerHTML = `La tua età è ${eta} anni. Sei ${stato}`
 }
 function cancellaForm(){
