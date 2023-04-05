@@ -9,7 +9,7 @@ function piugrande(a, b) {
     return b;
   }
 }
-console.log(piugrande(2,4))
+console.log(piugrande(2, 4))
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
@@ -18,8 +18,8 @@ console.log(piugrande(2,4))
 function controllaNumero(num) {
   if (num != 5) {
     return ("not equal");
-  }else{
-   return ("equal")
+  } else {
+    return ("equal")
   }
 }
 console.log(controllaNumero(5))
@@ -29,13 +29,13 @@ console.log(controllaNumero(5))
 */
 
 function divisibile(d) {
-  if(d%5==0){
+  if (d % 5 == 0) {
     return ('divisibile');
-  }else{
+  } else {
     return ('non è divisibile per 5');
-  } 
+  }
 }
- console.log(divisibile(5));
+console.log(divisibile(5));
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
@@ -43,12 +43,12 @@ function divisibile(d) {
 
 var confrontovar = function confronto(num1, num2) {
   if (num1 === 8 || num2 === 8 || num1 + num2 === 8 || Math.abs(num1 - num2) === 8) {
-      return true;
+    return true;
   } else {
-      return false;
+    return false;
   }
 }
-console.log(confrontovar(3,5))
+console.log(confrontovar(3, 5))
 
 
 
@@ -60,10 +60,10 @@ console.log(confrontovar(3,5))
 
 let totalShoppingCard = 51;
 let spedizione = totalShoppingCard + 10;
-if (totalShoppingCard > 50){
-  console.log(totalShoppingCard);
-} else{
-  console.log(spedizione);
+if (totalShoppingCard > 50) {
+  console.log("spedizione gratuita", totalShoppingCard);
+} else {
+  console.log("spedizione 10 euro", spedizione);
 }
 
 
@@ -74,17 +74,16 @@ if (totalShoppingCard > 50){
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-let totalShoppingCart = 60;
 
-let totale = totalShoppingCart / 1.2
+let totalShoppingCart = 100; //quanto spendo
+let totale = totalShoppingCart / 1.2 //applico 20% sconto
 
-if(totale > 50){
-  console.log('spedizione gratuita');
-}else{
-  console.log('spedizione costa 10 Euro');
+if (totale > 50) {
+  console.log(totale, 'spedizione gratuita');
+} else {
+  console.log(totale + 10, 'spedizione costa 10 Euro');
 }
 
-console.log('Totale: ' + totale);
 
 
 
@@ -112,23 +111,23 @@ function ordinamento(g, h, i) {
     } else {
       console.log(h, i, g);
     }
-  }else if(g > h && g > i){
-    if (h > i){
-      console.log(g,h,i);
-    }else{ 
-      console.log(g,i,h);
+  } else if (g > h && g > i) {
+    if (h > i) {
+      console.log(g, h, i);
+    } else {
+      console.log(g, i, h);
     }
   }
 }
 
-ordinamento(g,h,i);
+ordinamento(g, h, i);
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
 let numero1 = 2;
-console.log('La variabile è di tipo: ' + typeof  numero1);
+console.log('La variabile è di tipo: ' + typeof numero1);
 let numeroStringa = '23';
 console.log('La variabile è di tipo: ' + typeof numeroStringa);
 
@@ -138,23 +137,23 @@ console.log('La variabile è di tipo: ' + typeof numeroStringa);
 
 let num = 9
 if (num % 2 === 0) {
-    console.log(num + " è un numero pari");
+  console.log(num + " è un numero pari");
 } else {
-    console.log(num + " è un numero dispari");
+  console.log(num + " è un numero dispari");
 }
 console.log(num)
 
- /*ESERCIZIO 10 
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
-  let val = 11
-  if (val < 10) {
-      console.log("Meno di 10");
-      if (val < 5) {
-        console.log("Meno di 5");
-      }
-    }else {
-      console.log("Uguale a 10 o maggiore");
-    }
+/*ESERCIZIO 10 
+ Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
+let val = 11
+if (val < 10) {
+  console.log("Meno di 10");
+  if (val < 5) {
+    console.log("Meno di 5");
+  }
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -167,9 +166,9 @@ const me = {
   name: 'John',
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
-  
+
 }
-me.city="Toronto"
+me.city = "Toronto"
 me['city'] = 'Toronto';//secondo metodo
 console.log(me);
 
@@ -194,19 +193,16 @@ console.log(me);
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
-let n =  [];
-let iterator=1;
+let myArray = []; 
+for (let i = 1; i <= 10; i++) {
+    myArray.push(i);
+  }
+    console.log(myArray);
 
-while(iterator<=10){
-  n.push(iterator);
-  iterator++;
-}
-console.log(n);
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-n.pop();
-console.log(n);
-n.push(100);
-console.log(n);
+myArray.pop();
+myArray.push(100);
+console.log(myArray);
