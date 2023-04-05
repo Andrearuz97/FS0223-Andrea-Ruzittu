@@ -58,13 +58,14 @@ console.log(confrontovar(3,5))
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-let totalShoppingCarta = 49;
-let spedizione = 10;
-if (totalShoppingCarta > 50){
-  console.log(totalShoppingCarta);
+let totalShoppingCard = 51;
+let spedizione = totalShoppingCard + 10;
+if (totalShoppingCard > 50){
+  console.log(totalShoppingCard);
 } else{
-  console.log(totalShoppingCarta + spedizione);
+  console.log(spedizione);
 }
+
 
 
 
