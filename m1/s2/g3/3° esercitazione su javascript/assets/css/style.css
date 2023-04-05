@@ -1,0 +1,22 @@
+body{
+    background-color: green;
+    text-align: center;
+}
+#container{
+    background-color: yellow;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 1rem 2rem 1rem;
+}
+h1{
+    margin-bottom: 2rem;
+}
+a{
+    color:royalblue;
+    background-color: red;
+    text-decoration: none;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}

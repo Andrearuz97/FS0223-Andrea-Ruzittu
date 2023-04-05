@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let arrayy = ["andrea", "zorro", "mimmo", "aristotele","samuele", "gaia"];
+    console.log(arrayy);
+    arrayy.sort (); //riordina in ordine alfabetico.
+    console.log(arrayy);
+
+    console.log(arrayy.indexOf("aristotele")); //trova l'indice di Aristotele.
+    
+    arrayy.pop (); // elimina ultimo elemento array.
+    console.log(arrayy);// ha tolto "zorro"
+    arrayy.push ("spiderman"); //aggiunge valore alla fine array
+    console.log(arrayy);// aggiunto spiederman.
+    arrayy.shift (); // elimina primo valore array.
+    console.log(arrayy);// 
+    arrayy.unshift ("Batman"); // inserisce valore all'inizio array.
+    console.log(arrayy);// Aggiunto batman all'inizio 
+    delete arrayy[3] // elimina tutto l'array oppure un valore ma lascia buco.
+    console.log(arrayy);// eliminato mimmo da array  ma lasciato buco.
+    arrayy.splice (0,1); // Elimina un elemeno specifico.
+    console.log(arrayy) //Ho eliminato batman all'inizio.
+    arrayy.splice (0,2); // Elimina più elementi.
+    console.log(arrayy);// Ho eliminato i primi due elementi.
+    arrayy.splice (0,1 ,"cormorano"); // Elimina un elemeno specifico e lo sostituisce.
+    console.log(arrayy); // Ho tolto mimmo e aggiunto cormorano.
+    arrayy.splice (0,1, "airone", "pippetto","giorgio"); // Elimina un elemeno specifico e lo sostituisce con più elementi.
+    console.log(arrayy); // Ho tolto cormorano e aggiunto i valori di sopra.
+    let array= arrayy.slice (2,4); // Estrai valori da un array e crea un nuovo array, non modifica l'array padre.
+    console.log(array); // ho creato un nuovo array con i valori da 2 e 3 perchè il 4 non lo conta!
+   </script> 
+</body>
+</html>

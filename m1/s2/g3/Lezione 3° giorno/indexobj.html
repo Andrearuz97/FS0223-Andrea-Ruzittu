@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impariamo gli oggetti!</title>
+    <h1 id="testo"></h1>
+    <h3 id="testo1"></h3>
+</head>
+<body>
+  <script>
+    var pet = {
+        specie: ["gatto","cane,topo"],
+        coda: "lunga",
+        nome: "Paride",
+        colore: "grigio",
+        eta: 5,
+        stampa: function(){
+        return  `ciao il mio animale è un ${this.specie[0]} ha la coda ${this.coda} si chiama ${this.nome} ed è di colore ${this.colore}, ha un eta di ${this.eta} anni.`}
+    }
+      pet.stampa();
+      let stampa = document.getElementById("testo")
+      stampa.innerHTML = pet.stampa();
+
+      //FUNZIONE DEL COSTRUTTORE 
+      function Pet(_razza,_nome,_colore,_anni,_genere){
+      this.razza = _razza
+      this.nome = _nome
+      this.colore = _colore
+      this.anni = _anni
+      this.genere = _genere
+      
+      this.stampa=function(){
+        return `ciao sono un ${this.razza} mi chiamo ${this.nome} sono ${this.colore} e ho ${this.anni} anni inoltre mi definisco ${this.genere} ${this.grandezza}`
+      }
+    }
+    
+    
+    var gatto = new Pet("gatto","paride","grigio",3,"maschio")
+    gatto.grandezza="grande"
+    var animale2 = new Pet("cane","bobby","nero",10,"ibrido")
+    animale2.grandezza="medio"
+    console.log(gatto.stampa())
+    console.log(animale2.stampa())
+    
+  </script>  
+</body>
+</html>
