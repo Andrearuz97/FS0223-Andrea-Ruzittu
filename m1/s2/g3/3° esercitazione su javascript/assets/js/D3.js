@@ -81,7 +81,7 @@ let totale = totalShoppingCart / 1.2 //applico 20% sconto
 if (totale > 50) {
   console.log(totale, 'spedizione gratuita');
 } else {
-  console.log(totale + 10, 'spedizione costa 10 Euro');
+  console.log(totale += 10, 'spedizione costa 10 Euro');
 }
 
 
@@ -145,10 +145,10 @@ console.log(num)
 
 /*ESERCIZIO 10 
  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
-let val = 11
-if (val < 10) {
+let val = 6
+if (val < 5) {
   console.log("Meno di 10");
-  if (val < 5) {
+  if (val < 10) {
     console.log("Meno di 5");
   }
 } else {
@@ -194,15 +194,16 @@ console.log(me);
 */
 
 let myArray = []; 
-for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 10; i++) {
     myArray.push(i);
   }
-    console.log(myArray);
+  //myArray.push(1,2,3,4,5,6,7,8,9,10);
+  console.log(myArray);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-myArray.pop();
-myArray.push(100);
+
+myArray[9] = 100;
 console.log(myArray);
