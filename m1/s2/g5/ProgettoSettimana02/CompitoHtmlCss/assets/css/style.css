@@ -37,7 +37,7 @@ li{
 }
 #shopAllHolidat{
 text-align: center;
-background-color: orange;
+background-color: #F56600;
 margin: 1rem 0rem 1rem 0rem;
 }
 #shopAllHolidat p{
@@ -48,8 +48,11 @@ margin: 1rem 0rem 1rem 0rem;
 #banner{
     background-image: url(../img/bg-image.png);
     text-align: center;
+    /*background-size: contain;*/
     color: white;
     padding: 1.3rem;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 h1{
@@ -74,7 +77,8 @@ section p{
 section span{
     color:#00778F;
     font-weight: bold;
-    margin-left: 1rem;
+    margin-left: 0.8rem;
+    font-size: 0.8rem;
 }
 #images{
     text-align: center;
@@ -116,6 +120,7 @@ padding: 0.7rem;
 #backToTop a{
 color: white;
 font-weight: bold;
+font-size: 0.8rem;
 }
 #lastPart{
     background-color: #222F3E;
