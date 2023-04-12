@@ -205,7 +205,6 @@ oldMovie(movies);
   Scrivi una funzione per ottenere il numero di film contenuti nell'array fornito.
 */
 function contaFilms(movies) {
-  for (let i=0; i<movies.length; i++)
   return movies.length;
 }
 console.log(contaFilms(movies));
