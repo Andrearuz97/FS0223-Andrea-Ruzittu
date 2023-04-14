@@ -13,13 +13,13 @@ REGOLE
   Crea una variabile chiamata "sum" e assegnaci il risultato della somma tra i valori 10 e 20.
 */
 let sum = 10 + 20;
-console.log(sum); 
+console.log(sum);
 
 /* ESERCIZIO B
   Crea una variabile chiamata "random" e assegnaci un numero casuale tra 0 e 20 (deve essere generato dinamicamente a ogni esecuzione).
 */
 let random = Math.floor(Math.random() * 21);
-console.log(random); 
+console.log(random);
 
 /* ESERCIZIO C
   Crea una variabile chiamata "me" e assegnaci un oggetto contenente le seguenti proprietà: name = il tuo nome, surname = il tuo cognome, age = la tua età.
@@ -29,20 +29,20 @@ let me = {
   surname: 'Ruzittu',
   age: 25
 };
-console.log(me); 
+console.log(me);
 
 
 /* ESERCIZIO D
   Crea del codice per rimuovere programmaticamente la proprietà "age" dall'oggetto precedentemente creato.
 */
 delete me.age;
-console.log(me); 
+console.log(me);
 
 
 /* ESERCIZIO E
   Crea del codice per aggiungere programmaticamente all'oggetto precedentemente creato un array chiamato "skills", contenente i linguaggi di programmazione che conosci.
 */
-me.skills = ['JavaScript','Python','PHP'];
+me.skills = ['JavaScript', 'Python', 'PHP'];
 console.log(me);
 
 
@@ -51,7 +51,7 @@ console.log(me);
   Crea un pezzo di codice per aggiungere un nuovo elemento all'array "skills" contenuto nell'oggetto "me".
 */
 me.skills.push('Java');
-console.log(me); 
+console.log(me);
 
 /* ESERCIZIO G
   Crea un pezzo di codice per rimuovere programmaticamente l'ultimo elemento dall'array "skills" contenuto nell'oggetto "me".
@@ -67,7 +67,7 @@ console.log(me);
 function dice() {
   return Math.floor(Math.random() * 6) + 1;
 }
-console.log(dice()); 
+console.log(dice());
 
 /* ESERCIZIO 2
   Crea una funzione chiamata "whoIsBigger" che riceve due numeri come parametri e ritorna il maggiore dei due.
@@ -79,7 +79,7 @@ function whoIsBigger(num1, num2) {
     return num2;
   }
 }
-console.log(`Il numero più grande è: ${whoIsBigger(300, 290)}`); 
+console.log(`Il numero più grande è: ${whoIsBigger(300, 290)}`);
 
 /* ESERCIZIO 3
   Crea una funzione chiamata "splitMe" che riceve una stringa come parametro e ritorna un'array contenente ogni parola della stringa.
@@ -105,7 +105,7 @@ function deleteOne(string, deleteFirst) {
     return string.slice(0, -1);
   }
 }
-console.log(deleteOne("Epicode", true)); 
+console.log(deleteOne("Epicode", true));
 console.log(deleteOne("Epicode", false));
 
 /* ESERCIZIO 5
@@ -114,7 +114,7 @@ console.log(deleteOne("Epicode", false));
   Es.: onlyLetters("I have 4 dogs") => ritorna "I have dogs"
 */
 function onlyLetters(stringa) {
-  return stringa.replace(/\d+/g,'');
+  return stringa.replace(/\d+/g, '');
 }
 console.log(onlyLetters("I have 4 dogs"));
 
@@ -123,13 +123,13 @@ console.log(onlyLetters("I have 4 dogs"));
   Crea una funzione chiamata "isThisAnEmail" che riceve una stringa come parametro e ritorna true se la stringa è un valido indirizzo email.
 */
 function isThisAnEmail(email) {
- const emailPattern = /[A-z0-9\.\+_-]+@[A-z0-9\._-]+\.[A-z]{2,6}/;//pattern preso da appuntidiweb.wordpress.com
-return emailPattern.test(email);
+  const emailPattern = /[A-z0-9\.\+_-]+@[A-z0-9\._-]+\.[A-z]{2,6}/;//pattern preso da appuntidiweb.wordpress.com
+  return emailPattern.test(email);
 }
-console.log(isThisAnEmail("ruzittu.gmail.com")); 
-console.log(isThisAnEmail("ruzittu @ gmail.com")); 
+console.log(isThisAnEmail("ruzittu.gmail.com"));
+console.log(isThisAnEmail("ruzittu @ gmail.com"));
 console.log(isThisAnEmail("ruzittu.andrea97@gmail.com"));
-  
+
 /* ESERCIZIO 7
   Scrivi una funzione chiamata "whatDayIsIt" che ritorna il giorno della settimana corrente.
 */
@@ -173,12 +173,12 @@ console.log(rolls);
   Scrivi una funzione chiamata "howManyDays" che riceve una data come parametro e ritorna il numero di giorni trascorsi da tale data.
 */
 function howManyDays(date) {
-  const Oggi = new Date(); 
-  const diffTempo = Math.abs(Oggi - date); 
+  const Oggi = new Date();
+  const diffTempo = Math.abs(Oggi - date);
   const diffGiorni = Math.ceil(diffTempo / (1000 * 60 * 60 * 24));
   return diffGiorni;
 }
-const date = new Date('1997-09-16'); //La mia data di nascita
+const date = new Date('1997-09-16');
 console.log(howManyDays(date));
 
 
@@ -187,8 +187,8 @@ console.log(howManyDays(date));
   Scrivi una funzione chiamata "isTodayMyBirthday" che deve ritornare true se oggi è il tuo compleanno, falso negli altri casi.
 */
 function isTodayMyBirthday() {
-  const today = new Date(); 
-  const birthday = new Date('1997-09-16'); 
+  const today = new Date();
+  const birthday = new Date('1997-09-16');
   return (today.getMonth() === birthday.getMonth() && today.getDate() === birthday.getDate());
 }
 console.log(isTodayMyBirthday());
@@ -203,18 +203,18 @@ console.log(isTodayMyBirthday());
   in esso la proprietà chiamata come la stringa passata come secondo parametro.
 */
 function deleteProp(oggetto, propName) {
-  delete oggetto[propName]; 
-  return oggetto; 
+  delete oggetto[propName];
+  return oggetto;
 }
 
 const myObj = {
   name: 'Andrea',
-  age: 25, 
+  age: 25,
   gender: 'M'
 };
 
 const result = deleteProp(myObj, 'gender');
-console.log(result); 
+console.log(result);
 
 
 
@@ -361,15 +361,15 @@ console.log(countMovies(movies));
 /* ESERCIZIO 14
   Scrivi una funzione chiamata "onlyTheYears" che crea un array con solamente gli anni di uscita dei film contenuti nell'array "movies" fornito.
 */
-  function onlyTheYears(movies) {
-    const years = [];
+function onlyTheYears(movies) {
+  const years = [];
 
-    for (let i = 0; i < movies.length; i++) {
-      years.push(movies[i].Year);
-    }
-    return years;
+  for (let i = 0; i < movies.length; i++) {
+    years.push(movies[i].Year);
   }
-  console.log(onlyTheYears(movies));
+  return years;
+}
+console.log(onlyTheYears(movies));
 
 /* ESERCIZIO 15
   Scrivi una funzione chiamata "onlyInLastMillennium" che ritorna solamente i film prodotto nel millennio scorso contenuti nell'array "movies" fornito.
@@ -446,8 +446,7 @@ function removeIndex(index) {
   movies.splice(index, 1);
   return movies;
 }
-removeIndex(13);
-console.log(movies);
+console.log(removeIndex(13))
 // DOM (nota: gli elementi che selezionerai non si trovano realmente nella pagina)
 
 /* ESERCIZIO 20
@@ -456,7 +455,7 @@ console.log(movies);
 function selezionaContainer() {
   return document.getElementById("container");
 }
-console.log(selezionaContainer()); 
+console.log(selezionaContainer());
 
 /* ESERCIZIO 21
   Scrivi una funzione per selezionare ogni tag <td> all'interno della pagina.
@@ -468,7 +467,7 @@ console.log(selezionaTag());
 
 /* ESERCIZIO 22
   Scrivi una funzione che, tramite un ciclo, stampa in console il testo contenuto in ogni tag <td> all'interno della pagina.
-*/ 
+*/
 function stampaTestoTd() {
   const tdSelez = document.getElementsByTagName("td");
   for (let i = 0; i < tdSelez.length; i++) {
@@ -490,21 +489,22 @@ aggiungiBackgroundRossoAiLink();
   Scrivi una funzione per aggiungere un nuovo elemento alla lista non ordinata con id "myList".
 */
 function addListItem(text) {
-  let list = document.getElementById("myList");
-  let newItem = document.createElement("li");
-  newItem.innerText = text;
-  list.appendChild(newItem);
+  let lista = document.getElementById("myList");
+  let newLi = document.createElement("li");
+  newLi.innerText = text;
+  lista.appendChild(newLi);
 }
-addListItem("questo è il nuovo testo");
+addListItem("cinque");
 
 /* ESERCIZIO 25
-  Scrivi una funzione per svuotare la lista non ordinata con id "myList".
-*/
+  Scrivi una funzione per svuotare la lista non ordinata con id "myList".*/
+//DESELEZIONARE LA CHIAMATA DELLA FUNZIONE PER FAR SCOMPARIRE LA LISTA.
 function svuotaLista() {
   const myList = document.getElementById("myList");
-  myList.innerHTML = "";
+  myList.innerText = "";
 }
-//svuotaLista(); 
+svuotaLista(); 
+
 /* ESERCIZIO 26
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
 */
@@ -529,7 +529,7 @@ aggiungiClasse();
   ***
 
 */
-function halfTree (height) {
+function halfTree(height) {
   for (let i = 1; i <= height; i++) {
     let row = "";
     for (let j = 1; j <= i; j++) {
@@ -580,4 +580,4 @@ function isItPrime(number) {
 
   return true;
 }
-console.log(isItPrime(4))
+console.log(isItPrime(2))
