@@ -98,8 +98,8 @@ console.log(risultato);
   Crea una funzione chiamata "deleteOne" che riceve una stringa e un booleano come parametri.
   Se il valore booleano è true la funzione deve ritornare la stringa senza il primo carattere, altrimenti la deve ritornare senza l'ultimo.
 */
-function deleteOne(string, deleteFirst) {
-  if (deleteFirst) {
+function deleteOne(string, boolean) {
+  if (boolean) {
     return string.slice(1);
   } else {
     return string.slice(0, -1);
@@ -114,7 +114,7 @@ console.log(deleteOne("Epicode", false));
   Es.: onlyLetters("I have 4 dogs") => ritorna "I have dogs"
 */
 function onlyLetters(stringa) {
-  return stringa.replace(/\d+/g, '');
+  return stringa.replace(/\d+/g,'').replace(/\s{2,}/g,' ');
 }
 console.log(onlyLetters("I have 4 dogs"));
 
@@ -123,7 +123,7 @@ console.log(onlyLetters("I have 4 dogs"));
   Crea una funzione chiamata "isThisAnEmail" che riceve una stringa come parametro e ritorna true se la stringa è un valido indirizzo email.
 */
 function isThisAnEmail(email) {
-  const emailPattern = /[A-z0-9\.\+_-]+@[A-z0-9\._-]+\.[A-z]{2,6}/;//pattern preso da appuntidiweb.wordpress.com
+  const emailPattern = /[A-z0-9\.\+_-]+@[A-z0-9\._-]+\.[A-z]{2,6}/;
   return emailPattern.test(email);
 }
 console.log(isThisAnEmail("ruzittu.gmail.com"));
