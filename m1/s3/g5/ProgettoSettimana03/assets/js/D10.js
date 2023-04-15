@@ -90,8 +90,8 @@ function splitMe(str) {
   return str.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase());
 }
 let stringa = "I love coding";
-let risultato = splitMe(stringa);
-console.log(risultato);
+console.log(splitMe(stringa));
+
 
 
 /* ESERCIZIO 4
@@ -167,8 +167,8 @@ function rollTheDices(numRolls) {
 
   return results;
 }
-const rolls = rollTheDices();
-console.log(rolls);
+
+console.log(rollTheDices(2));
 /* ESERCIZIO 9
   Scrivi una funzione chiamata "howManyDays" che riceve una data come parametro e ritorna il numero di giorni trascorsi da tale data.
 */
@@ -212,9 +212,8 @@ const myObj = {
   age: 25,
   gender: 'M'
 };
+console.log(deleteProp(myObj, 'gender'));
 
-const result = deleteProp(myObj, 'gender');
-console.log(result);
 
 
 
@@ -503,7 +502,7 @@ function svuotaLista() {
   const myList = document.getElementById("myList");
   myList.innerText = "";
 }
-svuotaLista(); 
+ //svuotaLista(); 
 
 /* ESERCIZIO 26
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
