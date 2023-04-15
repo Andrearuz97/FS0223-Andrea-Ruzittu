@@ -105,7 +105,7 @@ function deleteOne(string, boolean) {
     return string.slice(0, -1);
   }
 }
-console.log(deleteOne("Epicode", true));
+console.log(deleteOne("Epicode", true)); 
 console.log(deleteOne("Epicode", false));
 
 /* ESERCIZIO 5
