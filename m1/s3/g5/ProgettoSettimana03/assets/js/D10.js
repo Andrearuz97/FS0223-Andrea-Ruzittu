@@ -105,7 +105,7 @@ function deleteOne(string, boolean) {
     return string.slice(0, -1);
   }
 }
-console.log(deleteOne("Epicode", true)); 
+console.log(deleteOne("Epicode", true));
 console.log(deleteOne("Epicode", false));
 
 /* ESERCIZIO 5
@@ -114,7 +114,7 @@ console.log(deleteOne("Epicode", false));
   Es.: onlyLetters("I have 4 dogs") => ritorna "I have dogs"
 */
 function onlyLetters(stringa) {
-  return stringa.replace(/\d+/g,'').replace(/\s{2,}/g,' ');
+  return stringa.replace(/\d+/g, '').replace(/\s{2,}/g, ' ');
 }
 console.log(onlyLetters("I have 4 dogs"));
 
@@ -502,7 +502,7 @@ function svuotaLista() {
   const myList = document.getElementById("myList");
   myList.innerText = "";
 }
- //svuotaLista(); 
+//svuotaLista(); 
 
 /* ESERCIZIO 26
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
@@ -536,7 +536,7 @@ function halfTree(height) {
     }
     console.log(row);
   }
-} 
+}
 halfTree(3);
 
 /* ESERCIZIO 28
