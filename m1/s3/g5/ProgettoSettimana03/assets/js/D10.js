@@ -536,7 +536,7 @@ function halfTree(height) {
     }
     console.log(row);
   }
-}
+} 
 halfTree(3);
 
 /* ESERCIZIO 28
