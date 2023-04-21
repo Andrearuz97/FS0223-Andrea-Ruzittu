@@ -500,7 +500,7 @@ addListItem("cinque");
 //DESELEZIONARE LA CHIAMATA DELLA FUNZIONE PER FAR SCOMPARIRE LA LISTA.
 function svuotaLista() {
   const myList = document.getElementById("myList");
-  myList.innerText = "";
+  myList.innerHTML = ""; //PER SVUOTARE meglio innerHTML CHE INNERTEXT.
 }
 //svuotaLista(); 
 
