@@ -197,7 +197,7 @@ width: 90%;
 @media screen and (min-width: 956px){
     
 input{
-    width: 10%;
+    width: 70%;
 }
 
 #sectionIframe{
@@ -213,10 +213,13 @@ table{
 }
 div{
     display: inline-block;
-    width: 30%;
+    width: 33%;
 }
 aside{
     width:80%;
     margin: 0 auto;
+}
+section h2{
+    background-color: lightgray;
 }
 }
