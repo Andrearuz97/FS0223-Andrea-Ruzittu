@@ -4,7 +4,7 @@ body {
     font-family:Arial, Helvetica, sans-serif
 }
 
-#nav {
+nav {
     display: flex;
     border-radius: 5rem;
     background-color: rgb(255, 252, 224);
@@ -48,7 +48,7 @@ header img {
 
 /* header */
 @media screen and (min-width:575px) {
-    #nav {
+    nav {
         display: flex;
         border-radius: unset;
         margin: unset;
@@ -91,7 +91,7 @@ header img {
         background-color: rgb(255, 252, 224);
     }
 
-    #nav {
+    nav {
         display: flex;
         flex-direction: column;
         margin-block: 2rem;
