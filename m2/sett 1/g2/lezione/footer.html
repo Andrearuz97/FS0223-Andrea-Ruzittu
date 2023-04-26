@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Footer in flex</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+        }
+        .top{
+            background-color: #04a2b0;
+            color: white;
+            flex-grow:2.5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .top p:first-child{
+            margin-bottom: 0;
+        }
+        .top a{
+            color: white;
+            text-decoration: none;
+            
+        }
+        .middle{
+            background-color: #015d5f;
+            color: white;
+            flex-grow: 0.5;
+            display: flex;
+            align-items: center;
+
+        }
+        .middle ul{
+            display: flex;
+            justify-content: space-around;
+            margin: 0;
+            padding: 0rem;
+            width: 100%;
+            list-style: none;
+        }
+
+        .bottom{
+            background-color: #9ed3ca;
+            flex-grow: 1.5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .bottom p{
+            margin: 0;
+        }
+        #icons-container{
+            font-size: 2em;
+        }
+        #icons-container i{
+            margin: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <footer>
+      <div class="top">
+        <p>Questions</p>
+        <p>
+          Write us at
+          <a href="mailto:example@gmail.com">example@gmail.com</a>
+        </p>
+        <div id="icons-container">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="middle">
+        <ul>
+          <li>Privacy policy</li>
+          <li>terms of use</li>
+          <li>copyright</li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <p><span id="current-year"></span> , all right reserved.</p>
+        <p>created with 💓 at EPICODE</p>
+      </div>
+    </footer>
+    <script>
+        window.onload = function(){
+            let annoCorrente= document.getElementById("current-year")
+            date= new Date();
+            year= date.getFullYear();
+            annoCorrente.innerText=year            
+        }
+    </script>
+  </body>
+</html>
