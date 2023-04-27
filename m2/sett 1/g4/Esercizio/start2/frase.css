@@ -1,27 +1,16 @@
-/*
-1 creazione del testo e formattazione di 1 parola da far ruotare
-2 inserimento delle altre 2 parole
-3 sovrapporre le 3 parole
-4 mostrare 1 parola e nascondere le altre 2
-5 animare 1 parola (fadein - fadeout con spostamento)
-6 animare le altre 2 parole
-7 ritardare progressivamente l'animazione delle altre 2 parole 
-*/
-
-
-
 #testoAlternato {
     border: 2px solid black;
     padding: 1.5rem 1rem;
-    display: flex;
+    
     width: 500px;
     margin: 0 auto;
-    margin-block: 4rem;
+    margin-block: 20rem;
 }
 
 #testoAlternato p {
-    line-height: 1.4rem;
+    line-height: 2rem;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .parole {
@@ -39,9 +28,9 @@
 
 .parole i:first-child {
     display: block;
-    animation: rotateWord 2s ease-in-out;
+    animation: rotateWord 2.5s ease-in-out;
     margin-left: 0.5rem;
-    width: 7rem;
+    width: 10rem;
 
 
 }
@@ -50,7 +39,7 @@
     0% {
         transform: rotateZ(0deg);
         opacity: 1;
-        color: yellow;
+        color: greenyellow;
     }
 
     50% {
@@ -73,7 +62,7 @@
     display: inline-block;
     margin-left: 0.5rem;
     margin-bottom: 5rem;
-    width: 7rem;
+    width: 10rem;
     opacity: 0;
 }
 
@@ -83,25 +72,25 @@
 
 @keyframes fadeInOut {
     0% {
-        color: rgb(250, 250, 27);
+        color: rgb(0, 87, 218);
         opacity: 1;
         transform: translateY(-600%);
     }
 
-    /*    25% {
+    25% {
         color: rgb(255, 251, 3);
         transform: translateY(-75%);
-    } */
+    } 
 
-    /*  50% {
-        color: rgb(255, 251, 3);
+     50% {
+        color: rgb(161, 19, 19);
         transform: translateY(-50%);
-    } */
+    } 
 
-    /*  75% {
-        color: rgb(255, 251, 3);
+     75% {
+        color: rgb(255, 4, 4);
         transform: translateY(-25%);
-    } */
+    } 
 
     100% {
 
@@ -113,7 +102,7 @@
 }
 
 .parole i:nth-child(3) {
-    animation: fadeSlide 2s 3.8s ease-in-out;
+    animation: fadeSlide 2s 4s ease-in-out;
 }
 
 @keyframes fadeSlide {
@@ -127,7 +116,7 @@
     100% {
 
         opacity: 1;
-        color: rgb(0, 42, 255);
+        color: rgb(255, 0, 0);
         transform: translateX(0);
     }
 
