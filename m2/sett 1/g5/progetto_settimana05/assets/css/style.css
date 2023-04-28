@@ -165,8 +165,7 @@ nav {
     display: flex;
     margin-block: 1rem 1.5rem;
     flex-grow: 1;
-    flex-basis: 33.33%;
-    justify-content: center;
+    flex-basis: 33.33%;    
     align-items: center;
     vertical-align: middle;
 }
@@ -335,10 +334,9 @@ h3 {
 .sticky {
     position: sticky;
     top: 0px;
-    justify-self: flex-start;
     width: 25rem;
     padding: 1rem;
-    margin-left: 2rem;
+    
 }
 
 section {
