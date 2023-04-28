@@ -1,4 +1,3 @@
-//scrolltrigger
 let scrollTopBar = 450;
 
 window.onscroll = function () {

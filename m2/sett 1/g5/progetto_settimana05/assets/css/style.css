@@ -258,7 +258,6 @@ main .divisore {
     padding-top: 3rem;
     white-space: nowrap;
     vertical-align: middle;
-    margin-right: 17rem;
 }
 
 .articolo {
@@ -289,7 +288,7 @@ h3 {
 .articolo .img-art img {
     width: 200px;
     height: 130px;
-    padding-left: 2rem;
+    padding-left: 7rem;
     box-sizing: content-box;
 }
 
@@ -325,6 +324,8 @@ h3 {
 .cont-art {
     width: 27.5rem;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -346,7 +347,8 @@ section {
 
 .container-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+
 }
 
 .sticky h2 {
@@ -366,7 +368,7 @@ section {
     padding-inline: 0.5rem;
     padding-block: 0.2rem;
     border-radius: 3px;
-
+    color: rgb(100, 100, 100);;
     box-sizing: content-box;
 }
 
