@@ -140,6 +140,7 @@ nav {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    line-height: 1.2rem;
 
 
 }
@@ -382,5 +383,4 @@ section {
     margin-block: 2.3rem;
     line-height: 2.2rem;
 
-}
-
+ }  
