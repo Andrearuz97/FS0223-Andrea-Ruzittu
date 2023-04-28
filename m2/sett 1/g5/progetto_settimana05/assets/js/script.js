@@ -23,18 +23,22 @@ let animation = setInterval(() => {
     mSelected.style.opacity || mSelected.style.opacity === "0" ? mSelected.style.opacity = 1 : mSelected.style.opacity = 0
 }, 100);*/
 
-let m = document.querySelectorAll("svg  path")
+let m = document.querySelectorAll("svg path");
+let keyframes = [  { opacity: 0, offset: 0 },  { opacity: 0, offset: 0 },  { opacity: 0, offset: 1 }];
 
-let counter = 0;
-let animation = setInterval(() => {
-    let random = Math.floor(Math.random() * m.length)
-    let mSelected = m[random]
-    mSelected.style.opacity || mSelected.style.opacity === 0 ? mSelected.style.opacity = 1 : mSelected.style.opacity = 0
-    counter++;
-    if (counter > 10000) {  // Cancella l'intervallo dopo 2000 cicli (circa 100 secondi) 
-        clearInterval(animation);
-    }
-}, 50);
+function animate() {
+  let random = Math.floor(Math.random() * m.length);
+  let mSelected = m[random];
+  
+  if (mSelected) {
+    mSelected.animate(keyframes, { duration: 2000 });
+  }
+  
+  setTimeout(animate, 100);
+}
+
+animate();
+
 
 
 
