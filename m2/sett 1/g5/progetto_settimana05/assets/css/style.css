@@ -130,10 +130,8 @@ nav {
 
 
 .cont-title {
-    /*    display: flex;
-    align-items: center;
-    flex-direction: column; */
-    margin-inline: 16rem;
+    
+    margin-inline: 17rem;
 }
 
 .cont-trend {
@@ -383,7 +381,7 @@ section {
     line-height: 2.2rem;
 
  }  
- @media screen and (max-width: 1090px){
+ @media screen and (max-width: 1080px){
     .cont-title {
         margin-inline: 2rem;
     }
@@ -406,14 +404,22 @@ section {
 
         }
         #hero-box #hero-content {
-            width: 50rem;
+            width: 60rem;
         }
-        #multiple-m > svg{
-            width: 180% !important;
+        #hero-box #multiple-m {
+          
+       position: absolute;
+       bottom: 2rem;
+       top: 0rem;
+       right: 0;
+       width: 40rem;
+       height:28.5rem;
+       left: auto
+        }
+        nav{
+            padding: 25px 0rem;
         }
     }
-    @media screen and (max-width: 770px ){
-        #multiple-m > svg{
-            width: 300% !important;
-        }
+    @media screen and (max-width: 600 ){
+       
     }
