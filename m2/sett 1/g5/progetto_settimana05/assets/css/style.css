@@ -15,7 +15,6 @@ button {
 }
 
 
-
 nav {
 
     display: flex;
@@ -384,3 +383,37 @@ section {
     line-height: 2.2rem;
 
  }  
+ @media screen and (max-width: 1090px){
+    .cont-title {
+        margin-inline: 2rem;
+    }
+    .container-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .sticky {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+        }
+        .articoli{
+            display: flex;
+            flex-direction: inherit;
+            flex-wrap: wrap;
+            padding-top: 0rem;
+
+        }
+        #hero-box #hero-content {
+            width: 50rem;
+        }
+        #multiple-m > svg{
+            width: 180% !important;
+        }
+    }
+    @media screen and (max-width: 770px ){
+        #multiple-m > svg{
+            width: 300% !important;
+        }
+    }
