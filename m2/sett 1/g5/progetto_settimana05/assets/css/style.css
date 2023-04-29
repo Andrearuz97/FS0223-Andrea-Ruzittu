@@ -381,6 +381,9 @@ section {
     line-height: 2.2rem;
 
  }  
+    #multiple-m svg{
+        transform: none !important;
+    } 
  @media screen and (max-width: 1080px){
     .cont-title {
         margin-inline: 2rem;
@@ -404,22 +407,30 @@ section {
 
         }
         #hero-box #hero-content {
-            width: 60rem;
+            width: 40rem;
         }
         #hero-box #multiple-m {
           
        position: absolute;
-       bottom: 2rem;
-       top: 0rem;
-       right: 0;
-       width: 40rem;
-       height:28.5rem;
-       left: auto
+       left: 15rem;
         }
         nav{
             padding: 25px 0rem;
         }
+        .articolo .img-art img {
+            width: 120px;
+            height: 100px;
+            padding-left: 2rem;
+            box-sizing: content-box;
+        }
+        #multiple-m > svg{
+           height: 90% !important ;
+           width: 180% !important;
+        }
+        #hero-content h2{
+            font-size: 5rem;
+        }
     }
-    @media screen and (max-width: 600 ){
+    @media screen and (max-width: 700px ){
        
     }
