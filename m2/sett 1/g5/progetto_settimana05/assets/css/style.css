@@ -423,14 +423,48 @@ section {
             padding-left: 2rem;
             box-sizing: content-box;
         }
-        #multiple-m > svg{
-           height: 90% !important ;
-           width: 180% !important;
-        }
+     
         #hero-content h2{
             font-size: 5rem;
         }
     }
-    @media screen and (max-width: 700px ){
-       
+    @media screen and (max-width: 600px ){
+        #multiple-m > svg{
+            content-visibility: hidden!important;
+            ;
+        }
+     ul > li:nth-child(1) > a{
+        display: none;
+     }
+     ul > li:nth-child(2) > a{
+display: none;
+     }
+     ul > li:nth-child(3) > a{
+display: none;
+     }
+     nav{
+        justify-content: space-between;
+        padding-inline: 1rem;
+     }
+     #hero-content{
+        padding-inline: 1rem;
+     }
+     .articolo .img-art img {
+      width:100px;
+      height: 80px;
+        box-sizing: content-box;
+        padding-left: 0rem;
+      
+    }
+     .cont-trend{
+        flex-direction: column;
+        align-items: flex-start;
+     }
+     .info-art{
+        font-size:14px;
+     }
+     .bookmark{
+        position: absolute;
+        left: 24rem;
+     }
     }
