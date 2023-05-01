@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:700;400;100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:700;400;100&display=swap');
 body{
   color: #393d41;
   font-family: 'Open Sans', sans-serif;
@@ -9,22 +9,22 @@ body{
 h1,h2,h3,h4{
   color: #25a2c3;
   font-family: 'Montserrat', sans-serif;
-  line-height: 1.5;
+  line-height: 2;
   font-weight: bold;
 
 }
 #logo{
   background-color: black;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
 }
 #imglogo{
-  width: 6rem;
+  width: 9rem;
 }
 #presentazione{
   background-image: url("../images/banner.jpg");
   background-size: cover;
   text-align: center;
-  padding: 9rem;
+  padding: 13rem 24rem 20rem 26rem;
 }
 
 #presentazione a{
@@ -42,13 +42,13 @@ font-size: 1rem;
 #scrittaprese h1{
   color:#25a2c3;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
 
 }
 #scrittaprese p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-align: center;
   margin: 0 8rem 0 8rem;
   line-height: 2rem;
