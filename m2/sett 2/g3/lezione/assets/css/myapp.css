@@ -1,2 +1,22 @@
-@import url(./partials/_colors.scss);
-@import url(./partials/_button.scss);/*# sourceMappingURL=myapp.css.map */
+button {
+  background-color: green;
+  color: gold;
+  border-radius: 20%;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  transition: linear 3s;
+}
+h1:hover {
+  color: red;
+  font-size: 50px;
+  transition: linear 3s;
+  transform: translate(100px) rotate(1080deg);
+}
+
+p {
+  color: brown;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=myapp.css.map */

@@ -1,2 +1,24 @@
-@import url(./partials/_colors.scss);
-@import url(./partials/_button.scss);
+@import 'partials/colors';
+
+
+button {
+    background-color: $erba;
+    color: $oro;
+    border-radius: $radius;
+  }
+  h1{
+    text-align: center;
+    color: $erba;
+    transition: linear 3s;
+    &:hover{
+        color:$ferrari;
+        font-size: 50px;
+        transition: linear 3s;
+        transform: translate(100px) rotate(1080deg);
+      
+    }
+  }
+  p{
+    color:$legno ;
+    font-size: 1.5rem;
+}
