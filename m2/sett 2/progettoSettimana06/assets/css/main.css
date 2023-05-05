@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+
 header {
   background-color: #7550fe;
+}
+
+main p {
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .button1 {
@@ -8,8 +18,5 @@ header {
 
 .icons {
   background-color: #f7d8a7 !important;
-}
-
-i {
   color: #975f05 !important;
 }/*# sourceMappingURL=main.css.map */

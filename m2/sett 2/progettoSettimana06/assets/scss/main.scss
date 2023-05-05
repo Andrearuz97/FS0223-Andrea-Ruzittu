@@ -8,13 +8,20 @@ body{
 }
 header {
     background-color: $purple;
+ 
+   
 }
+main{
+    p{
+     font-size: 1rem;
+     font-weight: bold;
+    }
+}
+
 .button1{
     background-color: $green ;
 }
 .icons{
     background-color: $papaia !important;
-}
-i{
     color: $marrone !important;
 }
