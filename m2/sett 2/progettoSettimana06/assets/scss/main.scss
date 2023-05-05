@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 $purple:       #7550fe;
 $green:       #1acb98;
 $papaia:    #f7d8a7;
 $marrone:  #975f05;
+body{
+    font-family: 'Inter', sans-serif;
+}
 header {
     background-color: $purple;
 }
