@@ -32,4 +32,20 @@ span {
   background-color: #FFEEDA !important;
   color: #975f05 !important;
   font-weight: bolder !important;
+}
+
+.chart {
+  color: #7550fe;
+}
+
+.stars {
+  color: #FFAA46;
+}
+
+.rewiew {
+  color: #A8A3B9 !important;
+}
+
+.card-title {
+  font-size: 1rem;
 }/*# sourceMappingURL=main.css.map */

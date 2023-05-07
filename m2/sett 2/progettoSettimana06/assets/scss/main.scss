@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
-@import "partials/colors.css";
+@import "partials/colors.scss";
+
 body{
     font-family: 'Inter', sans-serif;
 
@@ -22,11 +23,11 @@ main{
      font-size: 1rem;
      font-weight: bold;
     }
+    
 }
 span{
     font-size: 0.9rem;
 }
-
 .button1{
     background-color: $green ;
 }
@@ -35,3 +36,16 @@ span{
     color: $marrone !important;
     font-weight: bolder !important;
 }
+.chart{
+    color: $purple;
+}
+.stars  {
+    color: $gold;
+}
+.rewiew{
+    color: $grigio !important;
+}
+.card-title{
+ font-size:  1rem;
+}
+
