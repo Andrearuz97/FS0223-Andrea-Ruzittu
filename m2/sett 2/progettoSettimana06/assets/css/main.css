@@ -14,38 +14,34 @@ header h6 {
   margin-bottom: 0;
   font-weight: bold;
 }
+header p {
+  color: #575757;
+}
+header .button1 {
+  background-color: #1acb98;
+}
+header .icons {
+  background-color: #ffeeda;
+  color: #975f05;
+  font-weight: bolder;
+}
 
 main p {
   font-size: 1rem;
   font-weight: bold;
 }
-
-span {
+main span {
   font-size: 0.9rem;
 }
-
-.button1 {
-  background-color: #1acb98;
-}
-
-.icons {
-  background-color: #FFEEDA !important;
-  color: #975f05 !important;
-  font-weight: bolder !important;
-}
-
-.chart {
+main .chart {
   color: #7550fe;
 }
-
-.stars {
-  color: #FFAA46;
+main .stars {
+  color: #ffaa46;
 }
-
-.rewiew {
-  color: #A8A3B9 !important;
+main .rewiew {
+  color: #a8a3b9;
 }
-
-.card-title {
+main .card-title {
   font-size: 1rem;
 }/*# sourceMappingURL=main.css.map */
