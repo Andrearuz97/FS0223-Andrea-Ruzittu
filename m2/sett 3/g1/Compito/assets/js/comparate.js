@@ -21,4 +21,4 @@ const user1 = new User("Antonio", "cassano", 40, "Bari");
 const user2 = new User("Francesco", "Totti", 37, "Roma");
 const user3 = new User("Antonio", "Di natale", 40, "Udine");
 
-console.log(user1.compareAge(user3)); // Output: "Mario è più grande di Luigi"
+console.log(user1.compareAge(user3)); 
