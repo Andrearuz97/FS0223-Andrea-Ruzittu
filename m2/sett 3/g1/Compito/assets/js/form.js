@@ -25,7 +25,7 @@ class Pet {
     const pet = new Pet(petName, ownerName, species, breed);
   
     const listItem = document.createElement('li');
-    listItem.textContent = `Il tuo animaletto si chiama ${pet.petName} è un/una (${pet.species}, di razza  ${pet.breed}). Il proprietario si chiama: ${pet.ownerName}`;
+    listItem.textContent = `Il tuo animaletto si chiama ${pet.petName} è un/a ${pet.species}, di razza  ${pet.breed}. Il proprietario si chiama: ${pet.ownerName}`;
   
     // Confronto il proprietario di ogni nuovo animale con quelli già presenti nella lista
     const petsInList = petList.querySelectorAll('li');
@@ -37,7 +37,7 @@ class Pet {
         alert.classList.add('alert');
         alert.textContent = message;
         form.appendChild(alert);
-        setTimeout(() => alert.remove(), 3000);
+        setTimeout(() => alert.remove(), 30000);
         break;
       }
     }
