@@ -74,7 +74,7 @@ class Animali {
         return `L'animale in questione è una specie di ${this.specie}, ha ${this.eta} anni e si chiama ${this.nome}.` 
     }
 adulto(){
-    if(this.eta >10) return "animale adulto";
+    if(this.eta >=10) return "animale adulto";
     else return "animale non adulto";
 }}
 
@@ -86,8 +86,10 @@ console.log(panda.visualizzaInfo());
 
 const listaAnimali = document.getElementById("listaAnimali");
 const infoGatto = document.createElement("h1");
-const infoPanda = document.createElement("h1");
+const infoPanda = document.createElement("p");
+if (s =="tutto")
 infoPanda.textContent = panda.visualizzaInfo();
+else infoPanda.textContent = panda.adulto();
 listaAnimali.appendChild(infoPanda);
 
 
