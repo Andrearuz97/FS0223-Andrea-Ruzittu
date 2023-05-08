@@ -63,33 +63,32 @@ const ka = new Automobile("Ford", "Ka", "2009");
 const corolla = new Automobile("Toyota", "Corolla", "2020");
 console.log(corolla.descrizione());
 
+/*----------------------------------------------------------------------------------*/
 
 class Animali {
-    constructor(specie, nome, eta){
-        this.specie = specie;
-        this.nome = nome;
-        this.eta = eta;
-    }
-    visualizzaInfo(){
-        return `L'animale in questione è una specie di ${this.specie}, ha ${this.eta} anni e si chiama ${this.nome}.` 
-    }
-adulto(){
-    if(this.eta >=10) return "animale adulto";
+  constructor(specie, nome, eta) {
+    this.specie = specie;
+    this.nome = nome;
+    this.eta = eta;
+  }
+  visualizzaInfo() {
+    return `L'animale in questione è una specie di ${this.specie}, ha ${this.eta} anni e si chiama ${this.nome}.`;
+  }
+  adulto() {
+    if (this.eta >= 10) return "animale adulto";
     else return "animale non adulto";
-}}
+  }
+}
 
-let s = prompt("cosa vuoi visualizzare?");
+let promt = prompt("cosa vuoi visualizzare?");
 
-const gatto = new Animali("Gatto","Paride","3")
-const panda = new Animali("Panda","Gino","10")
+const gatto = new Animali("Gatto", "Paride", "3");
+const panda = new Animali("Panda", "Gino", "10");
 console.log(panda.visualizzaInfo());
 
 const listaAnimali = document.getElementById("listaAnimali");
-const infoGatto = document.createElement("h1");
-const infoPanda = document.createElement("p");
-if (s =="tutto")
-infoPanda.textContent = panda.visualizzaInfo();
-else infoPanda.textContent = panda.adulto();
-listaAnimali.appendChild(infoPanda);
-
-
+const scrittaH1 = document.createElement("h1")
+if (promt == "tutto") scrittaH1.innerHTML = gatto.visualizzaInfo();
+else scrittaH1.innerHTML = panda.visualizzaInfo();
+scrittaH1.style.color="red" 
+listaAnimali.appendChild(scrittaH1);
