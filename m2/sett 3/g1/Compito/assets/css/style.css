@@ -1,26 +1,33 @@
-body{
-  background-color:greenyellow ;
+body {
+  background-color: greenyellow;
 }
-main{
-    text-align: right;
-    
-   width: 40%;
-    margin: 10rem 
+main {
+  text-align: center;
+
+  border: 5px solid red;
 }
-h1{
-    font-size: 5rem;
-    font-weight: bolder;
-    color: blueviolet;
+h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: crimson;
+  margin: 0;
+  margin-bottom: 1rem;
 }
-label{
-    color: blueviolet;
-    font-size: large;
-    font-weight: bold;
+label {
+  color: blueviolet;
+  font-size: 2rem;
+  font-weight: bold;
 }
-li{
-    list-style: none;
-    color: blueviolet;
-    font-size: larger;
-    font-weight: bold;
-    text-align: center;
+li {
+  list-style: none;
+  color: blueviolet;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+button {
+  font-size: 2rem;
+  margin-block: 1rem;
+  color: blueviolet;
+  padding: 1rem;
 }
