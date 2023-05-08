@@ -18,6 +18,10 @@ label {
   font-size: 2rem;
   font-weight: bold;
 }
+input{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
 li {
   list-style: none;
   color: blueviolet;
