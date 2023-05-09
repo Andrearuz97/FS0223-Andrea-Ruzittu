@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio js json + api rest</title>
+    <style>
+        .container{
+            width: 500px;
+            margin: 300px auto;
+        }
+        form input{
+            font-size: 1.5rem;
+        }
+        label{
+            font-size: 2rem;
+        }
+        button{
+            font-size: 1.48rem;
+        }
+        ul{
+            list-style: none; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rubrica contatti</h1>
+        <form>
+            <div class="campoForm">
+                <input type="text" id="nomeField" placeholder="Inserisci il tuo nome">
+                <label for="field">Nome</label>
+            </div>
+            <div class="campoForm">
+                <input type="text" id="cognomeField" placeholder="Inserisci il tuo cognome">
+                <label for="field">Cognome</label>
+            </div>
+            <div class="campoForm">
+                <input type="tel" id="telField" placeholder="Inserisci il tuo numero">
+                <label for="field">Numero</label>
+            </div>
+            <div id="buttons-container">
+                <button id="save-button">Salva i dati</button>
+                <button id="reset-button">Cancella i dati</button>
+
+            </div>
+        </form>
+        <h3>Contatti salvati:</h3>
+        <ul></ul>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
