@@ -10,7 +10,7 @@ const restituisciLista = function(){
   listaContatti.forEach((contatto) => {
     const newLi = document.createElement('li')
     newLi.innerText =
-      contatto.name + ' ' + contatto.surname + '  ' + contatto.phone
+      contatto.nome + ' ' + contatto.cognome + '  ' + contatto.telefono
     list.appendChild(newLi)
   })
 }
@@ -20,9 +20,9 @@ const saveButton = document.getElementById('save-button');
 saveButton.addEventListener('click', function (e) {
   e.preventDefault() 
   const nuovoUtente = {
-    name: campoNome.value,
-    surname: campoCognome.value,
-    phone: campoTel.value,
+    nome: campoNome.value,
+    cognome: campoCognome.value,
+    telefono: campoTel.value,
   }
   console.log(nuovoUtente)
  
