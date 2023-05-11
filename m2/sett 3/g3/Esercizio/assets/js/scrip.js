@@ -5,7 +5,7 @@ fetch("https://striveschool-api.herokuapp.com/books")
     let cardsHTML = '';
 
     data.forEach((book) => {
-      // Genera il codice HTML per la singola carta del libro
+
       const cardHTML = `
         <div class="card mb-3">
           <img src="${book.img}" class="card-img-top" alt="Book Image">
