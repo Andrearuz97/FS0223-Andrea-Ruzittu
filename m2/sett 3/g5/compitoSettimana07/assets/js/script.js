@@ -15,9 +15,9 @@ window.onload = () => {
 
       data.forEach((product) => {
         content.innerHTML +=
-          `<div class="col-6 col-md-2 col-lg-2">
+          `<div class="col-6 col-md-4 col-lg-2">
             <div class="card shadow pt-3 px-3 p-md-0">
-              <a href="details.html?id=${product._id}"><img style="height:9rem;" src="${product.imageUrl}" class="object-fit-cover-contain card-img-top" alt="..." /></a>
+              <a href="details.html?id=${product._id}"><img style="height:16rem;" src="${product.imageUrl}" class="object-fit-cover-contain card-img-top" alt="..." /></a>
 
               <div class="card-body">
                 <a class="title-link text-info" href="details.html?id=${product._id}"><h5 class="text-truncate flex-nowrap card-title text-info">${product.name}</h5></a>
@@ -38,7 +38,7 @@ window.onload = () => {
           </div >`;
       });
 
-      // Salvataggio dei dati nel localStorage
+     
       localStorage.setItem('products', JSON.stringify(data));
     })
     .catch((error) => console.log({ error }));
