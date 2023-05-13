@@ -1,25 +1,42 @@
 @import "partials/colors.scss";
-body{
-    background-color: cornflowerblue;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+body {
+  background-color: $background;
+  font-family: 'Roboto', sans-serif;
+  header {
+    nav.navbar {
+      background-color: $nav !important ;
+      a:hover {
+        color: red;
+        transform: scale(1.1);
+      }
+    }
+  }
+  main{
+    section a:hover{
+      transform: rotate(360deg) scale(1.1)!important ;
+    }
+  }
 }
 img,
 h5,
 .nav-item,
 svg {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .btn:hover,
 img:hover {
-    transform: scale(1);
-    transition: .3s ease-in-out;
-    box-shadow: 0px 5px 9px 1px grey;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 5px 9px 1px grey;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .title-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+  color: red;
 }
