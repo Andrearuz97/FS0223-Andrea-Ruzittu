@@ -11,7 +11,7 @@ body header nav.navbar a:hover {
   transform: scale(1.1);
 }
 body main section a:hover {
-  transform: rotate(360deg) scale(1.1) !important;
+  transform: scale(1.1) !important;
 }
 
 img,
