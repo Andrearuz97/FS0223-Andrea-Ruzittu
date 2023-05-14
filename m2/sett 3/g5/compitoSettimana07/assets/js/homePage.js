@@ -29,7 +29,7 @@ window.onload = async () => {
               <hr>
 
               <div class="pb-3 text-center">
-                <a class="btn btn-danger text-dark fw-bold me-2" href="backoffice.html?id=${product._id}">Modifica</a>
+                <a class="btn btn-danger text-dark fw-bold me-2" href="backOffice.html?id=${product._id}">Modifica</a>
               </div>
 
               <div class="text-center">

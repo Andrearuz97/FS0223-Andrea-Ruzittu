@@ -37,7 +37,7 @@ const formBackoffice = (e) => {
       alert(err.message);
     } else {
       e.target.reset();
-      window.location.replace("index.html");
+      window.location.replace("homePage.html");
     }
   });
 };
@@ -56,7 +56,7 @@ async function deleteProduct() {
           "C'è stato un problema nell'eliminazione,riprova per cortesia."
         );
       alert("Prodotto eliminato correttamente");
-      location.assign("index.html");
+      location.assign("homePage.html");
     } catch (error) {
       alert(error.message);
     } finally {

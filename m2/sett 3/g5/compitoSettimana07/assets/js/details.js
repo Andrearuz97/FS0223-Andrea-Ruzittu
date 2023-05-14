@@ -8,7 +8,7 @@ const headers = new Headers({
 
 function productDetails(product) {
   const contentArea = document.getElementById("cont-card");
-  contentArea.innerHTML = `<div class="container px-0"> <div class="d-flex justify-content-center"> <img src=${product.imageUrl} class="rounded" /> </div> <div class="flex-column px-2"> <h3 class="pt-3">${product.name}</h3> <h6>${product.brand}</h6> <p class="p-1 mt-3 shadow rounded">${product.description}</p> <p class="justify-content-end d-flex"> <span class="rounded px-3 bg-success fs-3 text-dark fw-bold shadow text-center">${product.price}€</span> </p> </div> </div>`;
+  contentArea.innerHTML = `<div class="container px-0"> <div class="d-flex justify-content-center"> <img src=${product.imageUrl} class="rounded" /> </div> <div class="flex-column px-2"> <h3 class="pt-3 fw-bold">${product.name}</h3> <h6>${product.brand}</h6> <p class="p-1 mt-3 shadow rounded">${product.description}</p> <p class="justify-content-end d-flex"> <span class="rounded px-3 bg-success fs-3 text-dark fw-bold shadow text-center">${product.price}€</span> </p> </div> </div>`;
 }
 
 (async () => {
