@@ -41,6 +41,6 @@ function playGame(player1, player2) {
         }
     }
 }
-var puntataGiocatore1 = 39;
-var puntataGiocatore2 = 62;
+var puntataGiocatore1 = 46;
+var puntataGiocatore2 = 89;
 playGame(puntataGiocatore1, puntataGiocatore2);

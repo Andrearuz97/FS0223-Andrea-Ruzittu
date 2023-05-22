@@ -39,7 +39,7 @@ function numeroCasuale(): number {
   }
   
   
-  const puntataGiocatore1 = 39;
-  const puntataGiocatore2 = 62;
+  const puntataGiocatore1 = 46;
+  const puntataGiocatore2 = 89;
   playGame(puntataGiocatore1, puntataGiocatore2);
   
