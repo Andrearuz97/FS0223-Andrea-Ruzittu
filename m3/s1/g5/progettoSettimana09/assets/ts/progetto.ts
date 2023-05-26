@@ -145,7 +145,7 @@ console.log(
   `Gentile cliente Vodafone, ha effettuato ${utenteVodafone.getNumeroChiamate()} chiamate.`
 );
 console.log(
-  "Gentile cliente Vodafone, il suo credito disponibile è di euro:",
+  "Gentile cliente Vodafone, il suo credito residuo è di euro:",
   utenteVodafone.numero404()
 );
 utenteVodafone.azzeraChiamate();
@@ -159,7 +159,7 @@ console.log(
   `Gentile cliente Tim, ha effettuato ${utenteTim.getNumeroChiamate()} chiamate.`
 );
 console.log(
-  "Gentile cliente Tim, il suo credito disponibile è di euro:",
+  "Gentile cliente Tim, il suo credito residuo è di euro:",
   utenteTim.numero404()
 );
 utenteTim.azzeraChiamate();
@@ -172,7 +172,7 @@ console.log(
   `Gentile cliente Wind, ha effettuato ${utenteWind.getNumeroChiamate()} chiamate.`
 );
 console.log(
-  "Gentile cliente Wind, il suo credito disponibile è di euro:",
+  "Gentile cliente Wind, il suo credito residuo è di euro:",
   utenteWind.numero404()
 );
 utenteWind.azzeraChiamate();
