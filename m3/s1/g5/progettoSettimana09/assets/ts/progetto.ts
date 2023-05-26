@@ -147,9 +147,9 @@ console.log(
   "Gentile cliente Vodafone, il suo saldo disponibile è di euro:",
   utenteVodafone.numero404()
 );
+utenteVodafone.azzeraChiamate();
 
 //Utente Tim
-utenteVodafone.azzeraChiamate();
 const utenteTim = new SecondUser();
 utenteTim.ricarica(50); // Quì sto ricaricando 50 euro
 utenteTim.chiamata(30); // Effettuo una chiamata di 30 minuti (costo: 6 euro)

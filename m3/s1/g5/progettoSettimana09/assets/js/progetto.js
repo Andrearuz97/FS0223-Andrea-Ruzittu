@@ -96,8 +96,8 @@ utenteVodafone.chiamata(4); // Effettuo una seconda chiamata di 4 minuti (costo:
 utenteVodafone.chiamata(1); // Effettuo una terza chiamata di 1 minuti (costo: 0.20 euro)
 console.log(`Gentile cliente Vodafone, ha effettuato ${utenteVodafone.getNumeroChiamate()} chiamate.`);
 console.log("Gentile cliente Vodafone, il suo saldo disponibile è di euro:", utenteVodafone.numero404());
-//Utente Tim
 utenteVodafone.azzeraChiamate();
+//Utente Tim
 const utenteTim = new SecondUser();
 utenteTim.ricarica(50); // Quì sto ricaricando 50 euro
 utenteTim.chiamata(30); // Effettuo una chiamata di 30 minuti (costo: 6 euro)
