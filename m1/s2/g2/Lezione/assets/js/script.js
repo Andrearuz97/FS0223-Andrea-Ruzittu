@@ -22,8 +22,11 @@ if(conferma){
 }
 
 var a = 150
-document.getElementById('scrivo').innerHTML += a //così non cancella quello scritto nell html.
+let scrivo =document.getElementById('scrivo') //così non cancella quello scritto nell html.
+scrivo.innerHTML += a
 var toTry = 100
+
+
 
 var ternary = (toTry == 100) ? 'la variabile è uguale a 100' : 'la variabile è diversa da 100' ;
 console.log(ternary)
