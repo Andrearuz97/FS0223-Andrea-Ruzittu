@@ -32,6 +32,15 @@ console.log(filtraPari([3,5,8,4,2,1,6,22,65,27,94,15,33,11,67,76,45]));
 /* ESERCIZIO 4
   Scrivi una funzione per sommare i numeri contenuti in un array
 */
+function sommaNumeri (array){
+  let  somma = 0
+  for (let i =0; i < array.length; i++){
+    somma += array[i];
+  }
+  return somma;
+}
+var numeri = [1,2,3,4]
+console.log(sommaNumeri(numeri));
 
 /* ESERCIZIO 5
   Scrivi una funzione per sommare i numeri contenuti in un array (usare REDUCE)
@@ -204,37 +213,37 @@ oldMovie(movies);
 /* ESERCIZIO 11
   Scrivi una funzione per ottenere il numero di film contenuti nell'array fornito.
 */
-function contaFilms(movies) {
+function contaFilms() {
   return movies.length;
 }
-console.log(contaFilms(movies));
+console.log(contaFilms());
 
 
 /* ESERCIZIO 12
   Scrivi una funzione per creare un array con solamente i titoli dei film contenuti nell'array fornito.
 */
-function soloTitolo(movies){
+function soloTitolo(){
   let array = [];
   for(let i=0; i<movies.length; i++)
   array.push(movies[i].Title);
   console.log(array);
     return array
 }
-soloTitolo(movies);
+soloTitolo();
 /* ESERCIZIO 13
   Scrivi una funzione per ottenere dall'array fornito solamente i film usciti nel millennio corrente.
 */
- function onlyThisMillenial(movies){
+ function onlyThisMillenial(){
   const array = [];
   for (let i = 0; i < movies.length; i++) {
-    if (movies[i].Year > 2000){
+    if (movies[i].Year >= 2000){
       array.push(movies[i]);
     }
   }
   console.log(array);
   return array;
 }
-  onlyThisMillenial(movies);
+  onlyThisMillenial();
 /* ESERCIZIO 14
   Scrivi una funzione per ottenere dall'array fornito uno specifico film (la funzione riceve un imdbID come parametro).
 */

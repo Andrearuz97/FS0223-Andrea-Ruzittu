@@ -177,6 +177,7 @@ paintItGreen();
 
        const removeLastLetter = function() {
       let h1 = document.querySelector("h1");
+      h1.style.cursor = "pointer";
       h1.addEventListener("click", function() {
         h1.textContent = h1.textContent.slice(0, -1);
       });
@@ -259,6 +260,7 @@ addRow("Immagine", "Nome prodotto", "Quantità", "Prezzo");
 
     function changeColorOnClick() {
   let h2 = document.getElementById("changeMyColor");
+  h2.style.cursor = "pointer";
   h2.addEventListener("click", function() {
     let randomColor = "#" + Math.floor(Math.random() * 100000).toString(16);
     h2.style.color = randomColor;
